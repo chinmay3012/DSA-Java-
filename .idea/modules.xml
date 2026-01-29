@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CFContestDiv2/CFContestDiv2.iml" filepath="$PROJECT_DIR$/CFContestDiv2/CFContestDiv2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hashmaps/Hashmaps.iml" filepath="$PROJECT_DIR$/Hashmaps/Hashmaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java Projects.iml" filepath="$PROJECT_DIR$/.idea/Java Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/LC-Contest/LC-Contest.iml" filepath="$PROJECT_DIR$/LC-Contest/LC-Contest.iml" />
