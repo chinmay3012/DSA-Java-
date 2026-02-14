@@ -267,6 +267,29 @@ public class TreeBFS {
             }
         }
 
+        //112. Path Sum
+        class Solution {
+            public boolean hasPathSum(TreeNode root, int targetSum) {
+
+                return cntDiff(root , targetSum);
+
+            }
+            public boolean cntDiff(TreeNode root , int targetSum){
+                if(root==null){
+                    return false;
+                }
+
+                int sumLeft = targetSum - root.val;
+
+                if(root.left == null && root.right == null){
+                    return sumLeft == 0;
+                }
+
+                return cntDiff(root.left , sumLeft) || cntDiff(root.right , sumLeft);
+
+            }
+        }
+
 
 
     }
